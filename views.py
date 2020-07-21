@@ -6,4 +6,6 @@ def index(request):
 def login(request):
 	return redirect("/index")
 def reg(request):
-	return redirect("reg")
+	return HttpResponse("reg")
+def card(request):
+	return HttpResponse("add card")
